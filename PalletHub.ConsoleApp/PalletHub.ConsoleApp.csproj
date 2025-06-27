@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PalletHub.Core\PalletHub.Core.csproj" />
+    <ProjectReference Include="..\PalletHub.Services\PalletHub.Services.csproj" />
+  </ItemGroup>
+
+</Project>
