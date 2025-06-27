@@ -29,7 +29,7 @@ public class Box
 	{
 		CheckSize(size);
 		_size = size;
-		_weight = weight;
+		Weight = weight;
 		ProductionDate = productionDate;
 		BestBeforeDate = bestBeforeDate;
 	}

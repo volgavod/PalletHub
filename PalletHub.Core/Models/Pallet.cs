@@ -33,7 +33,7 @@ public class Pallet : IEnumerable<Box>
 		if (this >= box)
 			_boxes.Add(box);
 		else
-			throw new Exception();
+			throw new ArgumentException("Коробка слишком большая для этого поддона", nameof(box));
 	}
 
 	public bool RemoveBox(Box box)
